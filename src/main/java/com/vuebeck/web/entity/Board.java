@@ -1,4 +1,4 @@
-package com.pratice.web.entity;
+package com.vuebeck.web.entity;
 
 
 import lombok.Data;
@@ -13,4 +13,5 @@ public class Board {
     private int hit;
     private String name;
     private Date regdate;
+    private String subject;
 }

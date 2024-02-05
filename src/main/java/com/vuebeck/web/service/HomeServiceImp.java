@@ -1,9 +1,7 @@
-package com.pratice.web.service;
+package com.vuebeck.web.service;
 
-
-
-import com.pratice.web.entity.Home;
-import com.pratice.web.repository.HomeRepository;
+import com.vuebeck.web.entity.Home;
+import com.vuebeck.web.repository.HomeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

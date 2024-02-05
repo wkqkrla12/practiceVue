@@ -1,7 +1,7 @@
-package com.pratice.web.repository;
+package com.vuebeck.web.repository;
 
 
-import com.pratice.web.entity.Home;
+import com.vuebeck.web.entity.Home;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -10,4 +10,5 @@ import java.util.List;
 public interface HomeRepository {
 
     List<Home> findAll();
+
 }

@@ -2,7 +2,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.pratice.web.repository.HomeRepository">
+<mapper namespace="com.vuebeck.web.repository.HomeRepository">
 
 <select id="findAll" resultType="Home">
 

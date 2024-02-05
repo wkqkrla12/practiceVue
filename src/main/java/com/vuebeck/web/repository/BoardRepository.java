@@ -1,6 +1,6 @@
-package com.pratice.web.repository;
+package com.vuebeck.web.repository;
 
-import com.pratice.web.entity.Board;
+import com.vuebeck.web.entity.Board;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

@@ -1,6 +1,7 @@
-package com.pratice.web.service;
+package com.vuebeck.web.service;
 
-import com.pratice.web.entity.Board;
+
+import com.vuebeck.web.entity.Board;
 
 import java.util.List;
 

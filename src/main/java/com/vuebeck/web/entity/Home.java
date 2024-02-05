@@ -1,4 +1,4 @@
-package com.pratice.web.entity;
+package com.vuebeck.web.entity;
 
 
 import lombok.Data;

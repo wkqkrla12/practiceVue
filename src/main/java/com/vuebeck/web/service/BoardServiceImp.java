@@ -1,9 +1,8 @@
-package com.pratice.web.service;
+package com.vuebeck.web.service;
 
 
-import com.pratice.web.entity.Board;
-
-import com.pratice.web.repository.BoardRepository;
+import com.vuebeck.web.entity.Board;
+import com.vuebeck.web.repository.BoardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
