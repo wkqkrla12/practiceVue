@@ -24,4 +24,9 @@ public class BoardServiceImp implements BoardService{
     public void saveBoard(Board board) {
         repository.saveBoard(board);
     }
+
+    @Override
+    public Board getBoardById(Long id) {
+        return repository.findById(id);
+    }
 }

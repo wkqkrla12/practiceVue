@@ -10,13 +10,13 @@
         from board;
     </select>
 
-
-
     <insert id="saveBoard" parameterType="com.vuebeck.web.entity.Board">
-        INSERT INTO board (no, hit, name, regdate, subject)
-        VALUES (#{no}, #{hit}, #{name}, #{regdate}, #{subject})
+        INSERT INTO board (id, hit, name, regdate, subject)
+        VALUES (#{id}, #{hit}, #{name}, #{regdate}, #{subject})
     </insert>
 
-
+    <select id="findById" resultType="Board">
+        SELECT * FROM board WHERE id = #{id}
+    </select>
 
 </mapper>

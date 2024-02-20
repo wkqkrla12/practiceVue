@@ -3,15 +3,15 @@ package com.vuebeck.web.entity;
 
 import lombok.Data;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Data
 public class Board {
 
 
-    private int no;
+    private int id;
     private int hit;
     private String name;
-    private Date regdate;
+    private LocalDateTime regdate;
     private String subject;
 }

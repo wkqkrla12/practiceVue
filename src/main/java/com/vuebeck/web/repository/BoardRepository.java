@@ -2,6 +2,7 @@ package com.vuebeck.web.repository;
 
 import com.vuebeck.web.entity.Board;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,4 +13,5 @@ public interface BoardRepository {
     List<Board> findAll();
     void saveBoard(Board board);
 
+    Board findById(Long id);
 }
